@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Javascript Excel</title>
+  </head>
+  <body>
+    <div id="app" class="container">
+      <div class="excel">
+        <div class="excel__header">
+          <input type="text" class="header__input" placeholder="New Table" />
+
+          <div class="header__buttons">
+            <div class="button">
+              <span class="material-icons">exit_to_app</span>
+            </div>
+
+            <div class="button">
+              <span class="material-icons">delete</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="excel__toolbar">
+          <div class="button">
+            <span class="material-icons">format_bold</span>
+          </div>
+
+          <div class="button">
+            <span class="material-icons">format_italic</span>
+          </div>
+
+          <div class="button">
+            <span class="material-icons">format_underlined</span>
+          </div>
+
+          <div class="button">
+            <span class="material-icons">format_align_left</span>
+          </div>
+
+          <div class="button">
+            <span class="material-icons">format_align_center</span>
+          </div>
+
+          <div class="button">
+            <span class="material-icons">format_align_right</span>
+          </div>
+        </div>
+
+        <div class="excel__formula">
+          <div class="formula__info">Fx</div>
+          <div class="formula__input" contenteditable="true" spellcheck="false"></div>
+        </div>
+
+        <div class="excel__table">
+            <div class="table__row">
+                <div class="table__row__info">
+
+                </div>
+                <div class="table__row__data">
+                    <div class="table__column">A</div>
+                    <div class="table__column">B</div>
+                    <div class="table__column">C</div>
+                </div>
+            </div>
+            <div class="table__row">
+                <div class="table__row__info">1</div>
+                <div class="table__row__data">
+                    <div class="table__row__cell selected"></div>
+                    <div class="table__row__cell"></div>
+                    <div class="table__row__cell"></div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
