@@ -6,7 +6,14 @@
     "node": true
   },
   "rules": {
-      "object-curly-spacing": 0
+    "object-curly-spacing": 0,
+    "require-jsdoc": 0,
+    "quotes": "off",
+    "comma-dangle": "off",
+    "semi": "off",
+    "operator-linebreak": "off"
   },
-  "extends": ["google"]
+  "extends": [
+    "google"
+  ]
 }
